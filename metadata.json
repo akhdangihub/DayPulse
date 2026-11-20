@@ -1,0 +1,6 @@
+{
+  "name": "DayPulse",
+  "description": "Local-first all-day audio journal, multimodal note capture, and smart evening review planner powered by Gemini.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

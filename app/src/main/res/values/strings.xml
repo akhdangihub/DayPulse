@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">DayPulse</string>
+
+    <!-- Navigation Tabs -->
+    <string name="nav_today">Today</string>
+    <string name="nav_evening">Review</string>
+    <string name="nav_companion">Chat</string>
+    <string name="nav_vault">Vault</string>
+
+    <!-- Capture & Recording -->
+    <string name="capture_start_all_day">Start Capture</string>
+    <string name="capture_pause">Pause</string>
+    <string name="capture_resume">Resume</string>
+    <string name="capture_stop">Stop</string>
+    <string name="capture_save_segment">Save Chunk</string>
+    <string name="capture_status_recording">Listening &amp; Saving Locally</string>
+    <string name="capture_status_paused">Recording Paused</string>
+    <string name="capture_status_idle">Ready to Capture</string>
+    <string name="capture_privacy_badge">SQLite Local-First • Offline Ready</string>
+    <string name="capture_add_note">Quick Note</string>
+    <string name="capture_add_photo">Scan Photo</string>
+    <string name="capture_process_queue">Sync Queued</string>
+    <string name="capture_mic_permission_rationale">Microphone access lets DayPulse record audio segments locally on your device, even when offline.</string>
+    <string name="capture_mic_permission_grant">Allow Microphone</string>
+    <string name="capture_empty_title">Your day ledger is open</string>
+    <string name="capture_empty_body">Start audio capture, jot an offline note, or attach a whiteboard photo. Everything stays in your local SQLite vault until processed.</string>
+
+    <!-- Quick Review -->
+    <string name="evening_title">Quick Review</string>
+    <string name="evening_generate_cta">Run Quick Review</string>
+    <string name="evening_regenerate_cta">Update Quick Review</string>
+    <string name="evening_empty_title">Ready for a Quick Review</string>
+    <string name="evening_empty_body">Capture voice segments, notes, or photos anytime during the day, then tap Run Quick Review for an instant summary and smart task/schedule suggestions.</string>
+    <string name="evening_pending_section">New Suggestions</string>
+    <string name="evening_accepted_section">Approved &amp; Scheduled</string>
+    <string name="evening_dismissed_section">Dismissed</string>
+    <string name="action_accept">Approve</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_dismiss">Dismiss</string>
+    <string name="action_add_to_calendar">Calendar App</string>
+
+    <!-- Companion Chat -->
+    <string name="chat_title">Day Companion</string>
+    <string name="chat_subtitle">Fast AI grounded in your local transcripts &amp; summary</string>
+    <string name="chat_input_hint">Ask about your day or plan next steps…</string>
+    <string name="chat_send">Send</string>
+    <string name="chat_empty_title">Ask about your day</string>
+    <string name="chat_empty_body">Recall commitments from earlier recordings, clarify notes, or organize your schedule cleanly.</string>
+
+    <!-- Vault & Privacy Settings -->
+    <string name="vault_title">Vault &amp; Privacy</string>
+    <string name="vault_search_hint">Search local transcripts &amp; notes…</string>
+    <string name="vault_privacy_section">Privacy &amp; Offline Rules</string>
+    <string name="vault_auto_delete_title">Auto-delete raw audio after transcription</string>
+    <string name="vault_auto_delete_desc">Removes .m4a files from device once text is saved in SQLite.</string>
+    <string name="vault_wifi_only_title">Transcribe on Wi-Fi only</string>
+    <string name="vault_wifi_only_desc">Hold audio chunks in the offline queue until Wi-Fi connects.</string>
+    <string name="vault_evening_reminder_title">Daily Quick Review reminder</string>
+    <string name="vault_evening_reminder_desc">Evening check-in nudge to review your summary and tasks.</string>
+
+    <!-- Foreground Service & Notifications -->
+    <string name="fgs_channel_name">Audio Capture</string>
+    <string name="fgs_channel_desc">Shows active status and privacy controls while recording locally.</string>
+    <string name="reminder_channel_name">Smart Reminders</string>
+    <string name="reminder_channel_desc">Scheduled reminders approved during your Quick Review.</string>
+    <string name="evening_channel_name">Quick Review Check-In</string>
+    <string name="evening_channel_desc">Daily reminder to synthesize and review your day.</string>
+    <string name="chunk_channel_name">Chunk Task Alerts</string>
+    <string name="chunk_channel_desc">Push alerts only when a recorded chunk detects new tasks or schedules to approve.</string>
+    <string name="fgs_notif_title_recording">DayPulse is recording locally</string>
+    <string name="fgs_notif_title_paused">DayPulse recording paused</string>
+
+    <!-- App Widgets -->
+    <string name="widget_quick_access_name">DayPulse Quick Bar</string>
+    <string name="widget_quick_access_desc">Quick access bar for Start Capture, Quick Review, and Calendar.</string>
+    <string name="widget_task_approval_name">DayPulse Task Approval</string>
+    <string name="widget_task_approval_desc">Approve or dismiss chunk-detected tasks &amp; schedules with LOW/MED/HIGH priority.</string>
+    <string name="widget_day_hub_name">DayPulse Hub &amp; Schedule</string>
+    <string name="widget_day_hub_desc">All-in-one capture controls, task approvals, priority badges, and calendar schedule.</string>
+</resources>
